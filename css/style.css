@@ -8,6 +8,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .page-wrapper {
   overflow: hidden;
   max-width: 375px;
@@ -117,4 +121,60 @@ body {
 
 .button.telegram {
   background: #08C;
+}
+
+.workout {
+  text-align: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.services {
+  font-size: 14px;
+}
+
+.about {
+  text-align: center;
+  max-width: 120px;
+  height: 51px;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 18px 9px;
+  background-color: #0A1CE4;
+}
+
+.button-lesson {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-top: -10px;
+}
+
+.web {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  max-width: 120px;
+  height: 51px;
+  display: flex;
+  border-radius: 10px;
+  padding: 18px 9px;
+  background-color: #0A1CE4;
+  margin-left: 163px;
+  margin-top: -60px;
+}
+
+.button-web {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-top: -2px;
 }
