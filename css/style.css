@@ -74,3 +74,47 @@ body {
   line-height: 15px;
   margin-top: -10px;
 }
+
+.card {
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 18px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 265px;
+  margin: auto;
+  gap: 5px;
+}
+
+.button {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  gap: 10px;
+}
+
+.button.whatsapp {
+  background: #2CB742;
+}
+
+.button.vk {
+  background: #07F;
+  ;
+}
+
+.button.telegram {
+  background: #08C;
+}
